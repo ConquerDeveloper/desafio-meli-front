@@ -28,8 +28,6 @@ export default function ItemDetail(props) {
         })();
     }, [id]);
 
-    console.log('spinner', spinner);
-
     return (
         <div className={"detailBody"}>
             <Menu/>
