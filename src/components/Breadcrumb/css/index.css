@@ -1,0 +1,25 @@
+.breadcrumbContainer {
+    max-width: 1220px;
+    margin: auto;
+}
+
+.breadcrumbBody {
+    margin: 20px 0;
+    list-style: none;
+    padding: 0;
+    text-align: justify;
+}
+
+.breadcrumbBody li:nth-child(n+2):before {
+    content: "|";
+    margin-right: 15px;
+    color: #7f8c8d;
+}
+
+.breadcrumbBody li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #7f8c8d;
+    text-decoration: none;
+    font-size: 14px;
+}

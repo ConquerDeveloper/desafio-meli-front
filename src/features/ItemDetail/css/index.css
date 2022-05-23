@@ -1,0 +1,68 @@
+html, body {
+    width: 100%;
+    max-height: 100%;
+    color: #333;
+}
+
+.detailContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemContainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-width: 1220px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.imgPreviewContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 30px;
+    justify-content: flex-start;
+    width: 250px;
+    margin-bottom: auto;
+}
+
+.descriptionContainer > h1 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+
+.descriptionContainer > p {
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.descriptionContainer > button {
+    background: #3483fa;
+    border: 1px solid #3483fa;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.descriptionSummaryContainer {
+    width: 800px;
+    margin-right: auto;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.descriptionSummaryContainer > h1 {
+    color: #000;
+}
